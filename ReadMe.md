@@ -33,6 +33,7 @@ elements = Arrays.copyOf(elements, newSize);
 
 ```
 
+### 模拟实现
 ```java
 public class MyList<E> {
     private int size = 0;
