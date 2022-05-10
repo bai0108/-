@@ -1,6 +1,5 @@
 ## Java，ArrayList为什么是不同步的？Java中如何实现ArrayList?
-'''
-java
+```java
 public class MyList<E> {
     private int size = 0;
     private static final int DEFAULT_CAPACITY = 10;
@@ -31,4 +30,4 @@ public class MyList<E> {
         return (E) elements[i];
     }
 }
-'''
+```
